@@ -1,0 +1,50 @@
+@import url(reset.css);
+*{
+   color: gray;
+}
+h1 {
+   color: blue;
+}
+h2 {
+   color: yellow;
+}
+h3 {
+   color: green;
+}
+h4 {
+   color: blueviolet;
+}
+.link {
+   color: dodgerblue;
+}
+#some-id {
+   color: black;
+}
+a.link {
+   color: brown;
+}
+.text,
+.block_text {
+   color: darkmagenta;
+}
+/*.block_text.text {
+   color: darkblue;
+}*/
+/*.title a {
+   color: aqua;
+}*/
+.title * {
+   color: aqua;
+}
+.text > p {
+   color: red;
+}
+/*.text>p {
+   color: blue;
+}*/
+.text~p {
+   color: blue;
+}
+#some-id-5 {
+   color: darksalmon;
+}
