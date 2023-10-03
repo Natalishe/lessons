@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+@import url('reset.css');
+
+body {
+	font-family: "Inter", sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #7D7D7D;
+	line-height: 1.46;
+}
+
+.title,
+.subtitle {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	line-height: 1.27;
+}
+
+h1.title {
+	color: #37393F;
+	font-size: 30px;
+	text-transform: capitalize;
+	margin-bottom: 10px;
+}
+
+h2.subtitle {
+	color: #6B77E5;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+h2.title {
+	color: #37393F;
+	font-size: 25px;
+}
+
+h3.subtitle {
+	color: #40DDB6;
+	font-size: 20px;
+}
+
+.title-jewellery {
+	color: #D06B00;
+	font-size: 28px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.subtitle-jewellery {
+	font-family: "DM serif text", serif;
+	font-size: 59px;
+	font-weight: 400;
+	color: #0E333D;
+	text-transform: capitalize;
+	line-height: 1.47;
+}
+
+.text-jewellery {
+	color: #474747;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.80;
+}
+
+.conculting_block {
+	max-width: 715px;
+	margin: 0 auto 50px;
+	max-width: 692px;
+	padding: 50px 0px;
+}
+
+.consulting_image img {
+	margin-bottom: 37px;
+	max-width: 100%;
+}
+
+.text {
+	margin-bottom: 42px;
+}
+
+.benefits {
+	display: table;
+}
+
+.benefits_image {
+	display: inline-block;
+	max-width: 50%;
+}
+
+.benefits_body {
+	max-width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 0px 5px 0px 15px;
+}
+
+h2.title {
+	max-width: 156px;
+	margin-bottom: 15px;
+}
+
+h3.subtitle {
+	max-width: 332px;
+	margin-bottom: 21px;
+}
+
+li {
+	margin-bottom: 30px;
+	padding-left: 20px;
+}
+
+.jewellery-block {
+	display: inline-block;
+}
+
+.title-jewellery {
+	max-width: 183px;
+	margin-bottom: 13px;
+}
+
+.subtitle-jewellery {
+	max-width: 526px;
+	margin-bottom: 25px;
+}
+
+.text-jewellery {
+	max-width: 563px;
+}
+
+.image1,
+.image2 {
+	max-width: 273px;
+}
+.image1 {
+	margin-right: 22px;
+	margin-left: 38px;
+}
