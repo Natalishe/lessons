@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&display=swap');
+@import url("fonts.css");
+@import url("reset.css");
+
+
+.consulting,
+.project,
+.clothing,
+.jewellery {
+   padding: 50px 10px;
+   margin: 0 auto;
+}
+/*===============licencing=============================*/
+.licencing {
+   font-family: "Inter", sans-serif;
+   max-width: 1218px;
+   padding: 0 5px;
+}
+.block {
+   text-align: center;
+}
+.square {
+   display: inline-block;
+   width: 12px;
+   height: 12px;
+   background-color: #40DDB6;
+}
+.title-licencing {
+   font-family: "Inter", sans-serif;
+	color: #37393F;
+	font-size: 18px;
+	font-weight: 500;
+	text-align: center;
+	text-transform: capitalize;
+   margin-bottom: 16px;
+   display: inline-block;
+}
+h1 {
+   font-family: "Poppins", sans-serif;
+   color: #37393F;
+   font-size: 60px;
+   font-weight: 700;
+   line-height: 1.21;
+   text-align: center;
+   margin-bottom: 70px;
+}
+.subtitle {
+   font-family: "Poppins", sans-serif;
+   color: #37393F;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.21;
+   text-transform: capitalize;
+   margin-bottom: 11px;
+}
+.pre-subtitle,
+.pre-subtitle-icons {
+   font-family: "Poppins", sans-serif;
+   color: #37393F;
+   font-size: 30px;
+   font-weight: 700;
+   text-transform: capitalize;
+}
+span {
+   font-family: "Poppins", sans-serif;
+   color: #40DDB6;
+   font-size: 30px;
+   font-weight: 400;
+}
+.text span {
+   font-family: "Poppins", sans-serif;
+   color: #40DDB6;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 1.46;
+}
+.text-licencing span {
+   font-family: "Inter", sans-serif;
+   color: #40DDB6;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 1.46;
+}
+.text {
+   font-family: "Inter", sans-serif;
+   color: #7D7D7D;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.46;
+}
+.text-icons,
+.text-all {
+   color: #7D7D7D;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.46;
+}
+.text-licencing,
+.text-licencing-image {
+    color: #40DDB6;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.46;
+}
+.text-icons {
+   margin-bottom: 32px;
+}
+.pre-subtitle-icons{
+   margin-bottom: 100px;
+}
+.text-all {
+   margin-bottom: 24px;
+}
+.pre-subtitle pexels,
+.pre-subtitle {
+   margin-bottom: 8px;
+}
+.text-licencing {
+   margin-bottom: 24px;
+}
+.text-licencing-image {
+   margin-bottom: 100px;
+}
+/*===========================project===========================*/
+.project {
+   max-width: 860px;
+   font-family: "Inter", sans-serif;
+}
+.title-project {
+   font-family: "Poppins", sans-serif;
+   color: #37393F;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 1.27;
+   margin-bottom: 13px;
+}
+.text-project {
+   color: #7D7D7D;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.46;
+   margin-bottom: 35px;
+}
+.text-project p {
+   margin-bottom: 25px;
+}
+.list-project {
+   color: #7D7D7D;
+   font-size: 18px;
+   font-weight: 500;
+   line-height: 1.46;
+   margin-bottom: 35px;
+}
+.list {
+   margin-bottom: 25px;
+   padding-left: 30px;
+}
+.text-project {
+   color: #7D7D7D;
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 1.46;
+   margin-bottom: 35px;
+   text-align: justify;
+}
+/*========================clothing===================*/
+.clothing {
+   font-family: "Causten", sans-serif;
+   padding-bottom: 100px;
+}
+.clothing-block {
+   max-width: 1270px;
+}
+.title-block {
+   margin-bottom: 30px;
+}
+.clothing-line {
+   display: inline-block;
+   width: 6px;
+   height: 28px;
+   border-radius: 10px;
+   background: #8a33fd;
+   margin: 0px 15px 0px 0px;
+}
+.title-clothing {
+   font-family: "Core Sans C", sans-serif;
+   color: #3C4242;
+   font-size: 28px;
+   font-weight: 600;
+   line-height: 1.19;
+   letter-spacing: 0.56px;
+   text-transform: capitalize;
+   display: inline-block;
+}
+.text-block-clothing {
+   margin-bottom: 25px;
+}
+.subtitle-clothing {
+   font-family: "Core Sans C", sans-serif;
+   color: #807D7E;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.68;
+   letter-spacing: 0.40px;
+   text-transform: capitalize;
+   margin-bottom: 25px;
+}
+.text-clothing span {
+   color: #807D7E;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 1.68;
+}
+.text-block-clothing {
+   color: #807D7E;
+   font-size: 20px;
+   font-weight: 400;
+   line-height: 1.68;
+   letter-spacing: 0.40px;
+}
+.text-block-clothing p {
+   margin-bottom: 20px;
+}
+.subtitle-clothing {
+   font-family: Core Sans C;
+   color: #807D7E;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 1.68;
+   letter-spacing: 0.40px;
+   text-transform: capitalize;
+}
+/*===========================jewellery=====================*/
+.jewellery {
+   font-family: "Cormorant Infant", serif;
+   max-width: 1135px;
+   padding-bottom: 100px;
+}
+.body-jewellery {
+   margin-right: 75px;
+   max-width: 503px;
+   display: inline-block;
+}
+.subtitle-what {
+   color: #D58417;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 1;
+   text-transform: uppercase;
+   margin-bottom: 27px;
+}
+.title-we {
+   color: black;
+   font-size: 64px;
+   font-weight: 700;
+   line-height: 1;
+   text-transform: capitalize;
+   margin-bottom: 31px;
+}
+.text-jewellery {
+   color: #606060;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 1.4;
+}
+.image-jewellery {
+   display: inline-block;
+   vertical-align: top;
+}
+.image_1 {
+   width: 177px;
+   height: 336px;
+   margin-right: 30px;
+   border-radius: 235px;
+   border: 1px solid #502203;
+   vertical-align: middle;
+}
+.image_1 img{
+   margin: 14px 0px 0px -10px;
+}
+.image_2 {
+   width: 307px;
+   height: 500px;
+   border-radius: 235px;
+   border: 1px solid #502203;
+   vertical-align: middle;
+}
+.image_2 img {
+   margin: 19px 0 0 -10px;
+}
+.border {
+   background-color: #8a33fd;
+   width: 300px;
+   border: 10px solid yellow;
+   margin-bottom: 50px;
+}
+a {
+   color: blue;
+   border-bottom: 2px dotted;
+}
+.image-autumn {
+   display: inline-block;
+   margin-left: 50px;
+   margin-bottom: 50px;
+   outline: 5px solid yellowgreen;
+}
+.block1 {
+   width: 700px;
+   background-color: aqua;
+   margin: 50px;
+   border-radius: 15px;
+   box-shadow: 5px 10px 10px 5px #2604a044;
+}
+.block2 {
+   width: 500px;
+   background-color: cadetblue;
+   margin: 50px;
+   box-shadow: inset 0 0 10px 1px blue;
+}
+.image-opacity {
+   display: inline-block;
+   opacity: 0.5;
+}
