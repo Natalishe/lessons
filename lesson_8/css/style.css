@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&&display=swap');
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+	padding: 25px;
+}
+/*==================PRACTICE====================*/
+.title_practice {
+	text-align: center;
+	background-color: #6B77E5;
+}
+.repeat {
+	background-size: 150px;
+	/*background-size: cover;*/
+	/*background-size: contain;*/
+	background-image: url("../img/image_pr.jpg");
+	background-repeat: repeat-x;
+	/*background-repeat: repeat-y;*/
+	/*background-position: bottom;*/
+	/*background-position: right;*/
+	/*background-position: left;*/
+	/*background-position: top;*/
+	/*background-position: center;*/
+	background-attachment: fixed;
+}
+.gradient {
+	background-image:  linear-gradient(135deg, rgba(75,71,133,1) 0%, rgba(9,118,121,0.4990371148459384) 50%, rgba(0,212,255,1) 100%);;
+}
+/*=================CONSULTING====================*/
+.business_plan,
+.projects {
+	font-family: "Inter", sans-serif;
+	color: #7D7D7D;
+}
+.block_business_plan {
+	margin: 0 auto;
+	max-width: 742px;
+	margin-bottom: 35px;
+}
+.subtitle_top span {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;
+	margin-right: 6px;
+}
+.subtitle_top {
+	color: #37393F;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.22;
+	display: inline-block;
+}
+.business_plan_subtitle {
+	margin-bottom: 16px;
+}
+.projects_subtitle {
+	margin-bottom: 14px;
+}
+.title_top {
+	font-family: "Poppins", sans-serif;
+	color: #37393F;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+}
+.business_plan_title {
+	margin-bottom: 20px;
+}
+.projects_title {
+	margin-bottom: 14px;
+}
+.text {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.46;
+}
+.item_date {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.46;
+}
+.business_plan_text {
+	margin-bottom: 20px;
+}
+.business_plan_text p {
+	margin-bottom: 15px;
+}
+.business_plan_list_item {
+	font-family: "Poppins", sans-serif;
+	color: #37393F;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.5;
+	background: url("../img/vector.png") 0 0 / 27px no-repeat;
+	padding-left: 35px;
+	margin-bottom: 23px;
+	min-height: 33px;
+}
+.business_plan_list {
+	margin-bottom: 43px;
+}
+.achievement {
+	margin-bottom: 37px;
+}
+.achievement_title {
+	font-family: "Poppins", sans-serif;
+	color: #37393F;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.5;
+	margin-bottom: 3px;
+}
+.achievement_text {
+	font-size: 16px;
+	line-height: 1.35;
+}
+.experience,
+.winner {
+	display: inline-block;
+	padding: 31px 32px 32px 32px;
+	max-width: 295px;
+	border: 1px solid #E3E3E3;
+	margin-right: 21px;
+}
+.experience_block {
+	background: url("../img/icon1.svg") 0 0 / 40px 39px no-repeat;
+	padding-left: 58px;
+	min-height: 40px;
+}
+.winner {
+	display: inline-block;
+	padding: 31px 32px 32px 32px;
+	max-width: 295px;
+	border: 1px solid #E3E3E3;
+}
+.winner_block {
+	background: url("../img/icon2.svg") 0 0 / 40px 39px no-repeat;
+	padding-left: 58px;
+	min-height: 40px;
+}
+.business_plan_button {
+	display: inline-block;
+	color: white;
+	padding: 21px 27px 22px 27px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.2;
+	text-transform: capitalize;
+	max-width: 184px;
+	max-height: 65px;
+	background-color: #6B77E5;
+}
+.block_projects {
+	margin: 0 auto;
+	max-width: 1230px;
+	margin-bottom: 35px;
+}
+.projects_top {
+	text-align: center;
+	max-width: 852px;
+	margin: 0 auto 47px;
+}
+.projects_items_top_row {
+	margin-bottom: 58px;
+	font-size: 0;
+}
+.projects_item {
+	display: inline-block;
+	width: 384px;
+}
+.item_1,
+.item_2,
+.item_4,
+.item_5 {
+	margin-right: 34px;
+}
+.item_image {
+	margin-bottom: 24px;
+	height: 501px;
+	width: 100%;
+}
+.image_1 {
+	background: url("../img/image_1.jpg") center / cover no-repeat;
+}
+.image_2 {
+	background: url("../img/image_2.jpg") center / cover no-repeat;
+}
+.image_3 {
+	background: url("../img/image_3.jpg") center / cover no-repeat;
+}
+.image_4 {
+	background: url("../img/image_4.jpg") center / cover no-repeat;
+}
+.image_5 {
+	background: url("../img/image_5.jpg") center / cover no-repeat;
+}
+.image_6 {
+	background: url("../img/image_6.jpg") center / cover no-repeat;
+}
+.item_title {
+	font-family: "Poppins", sans-serif;
+	color: #37393F;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 10px;
+}
+.item_date {
+	background: url("../img/icon3.svg") 0 0 / 22px 22px no-repeat;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.46;
+	min-height: 22px;
+	padding-left: 25.35px;
+}
+/*==========================EUPHORIA=========================*/
+.clothing,
+.fashion {
+	font-family: "Causten", sans-serif;
+	color: #807D7E;
+	margin-bottom: 35px;
+}
+.block_clothing {
+	max-width: 1240px;
+	margin: 0 auto;
+}
+.clothing_title span {
+	display: inline-block;
+	width: 6px;
+	height: 28px;
+	background-color: #8A33FD;
+	margin-right: 15px;
+	border-radius: 10px;
+}
+.clothing_title,
+.clothing_sutitle,
+.clothing_button {
+	font-family: "Core Sans C", sans-serif;
+	font-weight: 600;
+}
+.clothing_title {
+	color: #3C4242;
+	font-size: 28px;
+	line-height: 1.2;
+	letter-spacing: 0.56px;
+	margin-bottom: 30px;
+}
+.clothing_sutitle,
+.clothing_button,
+.clothing_text {
+	font-size: 20px;
+	line-height: 1.67;
+	letter-spacing: 0.40px;
+	margin-bottom: 25px;
+	padding-left: 21px;
+}
+.clothing_text {
+	font-weight: 400;
+}
+.clothing_text p {
+	margin-bottom: 20px;
+}
+.clothing_text span { 
+	font-weight: 700;
+}
+.clothing_button {
+font-weight: 600;
+}
+.fashion {
+	color: white;
+}
+.block_fashion {
+	max-width: 1270px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+.block_fashion_items {
+	font-size: 0;
+	overflow: hidden;
+	border-radius: 10px;
+}
+.fashion_item_content {
+	display: inline-block;
+	background: url("../img/leaves.png") center / cover no-repeat;
+	padding: 183px 74px 174px;
+	vertical-align: middle;
+	width: 50%;
+}
+.fashion_title {
+	font-family: "Core Sans C", sans-serif;
+	font-size: 34px;
+	font-weight: 800;
+	line-height: 1.47;
+	letter-spacing: 0.21px;
+	margin-bottom: 30px;
+}
+.fashion_text {
+	font-size: 20px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+}
+.fashion_button {
+	display: inline-block;
+	color: #3C4242;
+	font-size: 18px;
+	font-weight: 600;
+	background-color: white;
+	border-radius: 8px;
+	padding: 12px 44px;
+}
+.fashion_item_image {
+	display: inline-block;
+	vertical-align: middle;
+	background: url("../img/people.png") center / cover no-repeat;
+	max-width: 626px;
+	min-height: 640px;
+	width: 50%;
+}
+
