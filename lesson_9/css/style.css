@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@700&display=swap');
+/*@import url("fonts.css");*/
+@import url("reset.css");
+
+body {
+	padding: 25px;
+}
+
+/*=================CONSULTING====================*/
+.business_plan,
+.work,
+.management {
+	font-family: "Inter", sans-serif;
+	color: #7D7D7D;
+}
+.block_business_plan,
+.block_work,
+.block_management {
+	margin: 0 auto;
+	margin-bottom: 75px;
+}
+.block_business_plan {
+	max-width: 675px;
+}
+.subtitle_top::before, 
+.work_subtitle::before {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background-color: #40DDB6;
+	margin-right: 6px;
+}
+.subtitle_top,
+.work_subtitle {
+	color: #37393F;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.22;
+	display: inline-block;
+	margin-bottom: 16px;
+}
+.title_top,
+.work_title {
+	font-family: "Poppins", sans-serif;
+	color: #37393F;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 1.21;
+}
+.business_plan_title {
+	margin-bottom: 10px;
+}
+.work_title {
+	margin-bottom: 41px;
+}
+.text {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.46;
+}
+.business_plan_text,
+.business_plan_list {
+	margin-bottom: 48px;
+}
+.business_plan_text p {
+	margin-bottom: 16px;
+}
+.list_title {
+	font-family: "Poppins", sans-serif;
+	color: #37393F;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.5;
+	margin-bottom: 12px;
+}
+.business_plan_list_item h3::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/vector.jpg") 0 0 / 27px no-repeat;
+	width: 27px;
+	height: 27px;
+	margin-right: 19px;
+	margin-bottom: -5px;
+}
+.business_plan_list_item:not(:last-child) {
+	margin-bottom: 31px;
+}
+.business_plan_list_item {
+	padding: 28px 41px 28px 38px;
+	border: 1px solid #E3E3E3;
+}
+.business_plan_list {
+	margin-bottom: 43px;
+}
+.business_plan_button {
+	display: inline-block;
+	color: white;
+	padding: 21px 35px 22px 35px;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 1.2;
+	text-transform: capitalize;
+	max-width: 200px;
+	max-height: 65px;
+	background-color: #6B77E5;
+}
+.business_plan_button:hover {
+	background-color: #3b4bd8;
+}
+.block_work {
+	max-width: 1240px;
+}
+.work_top {
+	text-align: center;
+}
+.work_items {
+	display: inline-block;
+	max-height: 337px;
+	vertical-align: middle;
+	text-align: center;
+}
+.work_item:not(:last-child) {
+	margin-right: 31px;
+}
+.work_item {
+	display: inline-block;
+	max-width: 386px;
+}
+.item1::before {
+	content: "";
+	display: inline-block;
+	background: url('../img/icon1.jpg') 0 0 / 72px no-repeat;
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+	margin-bottom: -36px;
+}
+.item2::before {
+	content: "";
+	display: inline-block;
+	background: url('../img/icon2.jpg') 0 0 / 72px no-repeat;
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+	margin-bottom: -36px;
+}
+.item3::before {
+	content: "";
+	display: inline-block;
+	background: url('../img/icon3.jpg') 0 0 / 72px no-repeat;
+	width: 72px;
+	height: 72px;
+	border-radius: 50%;
+	margin-bottom: -36px;
+}
+.work_item_content {
+	background-color: #F4F4F4;
+	padding: 53px 48px;
+}
+.work_item_subtitle {
+	font-family: "Poppins", sans-serif;
+	color: #37393F;
+	font-size: 25px;
+	font-weight: 600;
+	line-height: 1.27;
+	margin-bottom: 16px;
+}
+.work_link {
+	color: #6B77E5;
+	font-size: 18px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
+.work_link:hover {
+	color: #3b4bd8;
+}
+.work_item_text {
+	margin-bottom: 37px;
+}
+.block_management {
+	max-width: 730px;
+}
+.management_title,
+.management_subtitle {
+	font-family: "Poppins", sans-serif;
+	font-weight: 600;
+	line-height: 1.27;
+}
+.management_title {
+	color: #37393F;
+	font-size: 30px;
+	margin-bottom: 3px;
+}
+.proactively {
+	color: #6B77E5;
+	font-size: 20px;
+	margin-bottom: 12px;
+}
+.our {
+	color: #37393F;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.benefits {
+	color: #40DDB6;
+	font-size: 20px;
+	margin-bottom: 21px;
+}
+.management_content {
+	margin-bottom: 40px;
+}
+.management_text:not(:last-child) {
+	margin-bottom: 42px;
+}
+.management_items {
+	margin-bottom: 50px;
+	max-height: 263px;
+}
+.management_items_image {
+	display: inline-block;
+	max-width: 332px;
+	padding-right: 29px;
+	vertical-align: top;
+}
+.management_benefits {
+	display: inline-block;
+	max-width: 332px;
+	vertical-align: top;
+}
+.management_list li::before {
+	content: "";
+	display: inline-block;
+	background: url("../img/vector.jpg") 0 0 / 27px no-repeat;
+	width: 27px;
+	height: 27px;
+	margin-right: 8px;
+	margin-bottom: -5px;
+}
+.management_list li:not(:last-child) {
+	margin-bottom: 30px;
+}
+/*=================JEWELLERY====================*/
+.jewellery {
+	font-family: "Cormorant Infant", serif;
+	color: black;
+	font-weight: 700;
+}
+.block_jewellery {
+	max-width: 1600px;
+	margin: 0 auto;
+	margin-bottom: 75px;
+}
+.jewellery_title {
+	font-size: 60px;
+	line-height: 1.15;
+	padding: 109px 3px 134px 0;
+	height: 138px;
+	width: 488px;
+	display: inline-block;
+	vertical-align: top;
+}
+.jewellery_title h2::after {
+	content: "";
+	display: block;
+	width: 63%;
+	height: 3px;
+	background-color: #78473B;
+}
+.jewellery_image {
+	max-width: 334px;
+	display: inline-block;
+	vertical-align: top;
+	border: 1px solid #000000;
+	margin-bottom: 25px;
+}
+.jewellery_item_first {
+	margin-right: 45px;
+	padding-top: 32px;
+	vertical-align: top;
+	display: inline-block;
+}
+.jewellery_item_second {
+	max-width: 339px;
+	display: inline-block;
+	vertical-align: top;
+}
+.jewellery_image img{
+	margin: 9px -10px -9px 10px;
+}
+.jewellery_subtitle_image,
+.jewellery_text {
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+.jewellery_subtitle_image {
+	margin-bottom: 4px;
+}
+.jewellery_subtitle {
+	font-size: 46px;
+	font-weight: 700;
+	line-height: 1.13;
+	height: 156px;
+	width: 339px;
+	margin-bottom: 31px;
+}
+.jewellery_item_first a:hover,
+.jewellery_item_second a:hover {
+	text-decoration: underline;
+}
+/*=========================GAME========================*/
+.game {
+	text-align: initial;
+	padding: 50px;
+}
+.block_game {
+	background-color: rgb(205, 204, 221);
+	padding: 15px;	
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+	font-size: 0;
+}
+.game_title {
+	font-weight: 900;
+	font-size: 50px;
+	line-height: 1.5;
+	text-align: center;
+}
+.game_line {
+	background-color: rgb(32, 6, 110);
+	display: inline-block;
+	visibility: hidden;
+	height: 50px;
+}
+.game_line_1 {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	visibility: visible;
+}
+.game_line_2 {
+	width: 800px;
+	margin-left: -10px;
+}
+.game_line_3 {
+	width: 50px;
+	height: 200px;
+	vertical-align: top;
+}
+.game_line_4 {
+	width: 800px;
+	vertical-align: bottom;
+	margin-left: 90px;
+}
+.game_line_5 {
+	width: 50px;
+	height: 250px;
+	vertical-align: bottom;
+	margin-left: 90px;
+}
+.game_line_6 {
+	width: 700px;
+	vertical-align: bottom;
+}
+.game_line_7 {
+	width: 50px;
+	height: 400px;
+	vertical-align: bottom;
+	margin-left: 790px;
+}
+.game_line_8 {
+	width: 700px;
+	height: 50px;
+	vertical-align: bottom;
+	margin-left: 140px;
+}
+.game_line_9 {
+	width: 50px;
+	height: 50px;
+	background-color: crimson;
+	margin-left: -748px;
+}
+.game_line:hover,
+.game_line:hover + .game_line {
+	visibility: visible;
+}
+/*===================PRACTICE===================*/
+.practice_link {
+	width: 1000px;
+	margin: 0 auto;
+}
+.practice_link a {
+	font-family: "Inter", sans-serif;
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 1.5;
+	text-align: center;
+	display: block;
+	width: 300px;
+	background-color: aqua;
+}
+.practice_link a:not(:last-child) {
+	margin-bottom: 15px;
+}
+.link_hover:hover {
+	color: #E3E3E3;
+	background-color: blue;
+}
+.link_active:active {
+	color: #E3E3E3;
+	background-color: blue;
+}
+.link_visited:visited {
+	color: rgb(121, 121, 118);
+	background-color: rgb(148, 241, 241);
+}
+.link_focus:focus {
+	color: #E3E3E3;
+	background-color: blue;
+}
+.link_target:target {
+	visibility: visible;
+}
+.practice_child {
+	width: 1000px;
+	padding: 50px;
+	margin: 0 auto;
+}
+.practice_child p{
+	font-family: "Inter", sans-serif;
+	font-size: 32px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+.practice_child p:not(:last-child) {
+	margin-bottom: 25px;
+}
+/*.practice_child p:first-child {
+	background-color: burlywood;
+}*/
+/*.practice_child p:first-of-type {
+	background-color: yellow;
+}*/
+/*.practice_child p:last-child {
+	background-color: blueviolet;
+}*/
+/*.practice_child p:last-of-type {
+	background-color: blue;
+}*/
+/*.practice_child p:nth-child(odd) {
+	background-color: cornflowerblue;
+}
+.practice_child p:nth-child(even) {
+	background-color: darkgoldenrod;
+}*/
+.practice_child p:nth-child(3n+1) {
+	background-color: lightblue;
+}
+.practice_child p:nth-child(3n+2) {
+	background-color: lightgreen;
+}
+.practice_child p:nth-child(3n+3) {
+	background-color: lightyellow;
+}
